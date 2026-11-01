@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Page information -->
+<meta charset="UTF-8">
+<meta name="description" content="ReliefLink Disaster Relief Portal">
+<title>ReliefLink - Disaster Resource Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header and navigation -->
+<header>
+<h1>ReliefLink</h1>
+<p>Post-Disaster Resource Portal</p>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#centres">Centres</a></li>
+<li><a href="#process">How to Get Help</a></li>
+<li><a href="#request">Request Help</a></li>
+<li><a href="#donate">Donate</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+<!-- Home section -->
+<section id="home">
+<h2>Welcome to ReliefLink</h2>
+<p>ReliefLink connects disaster-affected people with relief organisations. Find food, drinking water, medicines, clothing and safe shelters at one place.</p>
+<blockquote>
+"Together we can help people rebuild their lives. Every small contribution matters."
+</blockquote>
+<div class="urgent">
+<h3>Urgent Needs</h3>
+<ul>
+<li>Drinking water</li>
+<li>Emergency medicines</li>
+<li>Food packets</li>
+</ul>
+</div>
+</section>
+<!-- Available resources section -->
+<section id="resources">
+<h2>Available Resources</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Resource</th>
+<th scope="col">Quantity</th>
+<th scope="col">Location</th>
+<th scope="col">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Food Packets</td><td>500</td>
+<td>Amritsar Camp</td><td><strong>Available</strong></td>
+</tr>
+<tr class="even">
+<td>Drinking Water</td><td>100</td>
+<td>Village Centre</td><td><strong>Low</strong></td>
+</tr>
+<tr>
+<td>Medicines</td><td>0</td>
+<td>City Hospital</td><td><strong>Out of Stock</strong></td>
+</tr>
+<tr class="even">
+<td>Blankets</td><td>200</td>
+<td>School Camp</td><td><strong>Available</strong></td>
+</tr>
+<tr>
+<td>Tents</td><td>10</td>
+<td>Relief Centre</td><td><strong>Low</strong></td>
+</tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4">Sample resource information for demonstration only.</td></tr>
+</tfoot>
+</table>
+</section>
+<!-- Distribution centres section -->
+<section id="centres">
+<h2>Distribution Centres</h2>
+<article>
+<h3>Amritsar Relief Camp</h3>
+<address>Government School, Amritsar, Punjab</address>
+<p>Timings: 8 AM to 6 PM</p>
+<ul>
+<li>Food packets</li>
+<li>Drinking water</li>
+<li>Blankets</li>
+</ul>
+</article>
+<article>
+<h3>Village Support Centre</h3>
+<address>Community Hall, Example Village</address>
+<p>Timings: 9 AM to 5 PM</p>
+<ul>
+<li>Medicines</li>
+<li>Food packets
+<ul>
+<li>Rice packets</li>
+<li>Wheat flour</li>
+</ul>
+</li>
+</ul>
+</article>
+<article>
+<h3>City Relief Centre</h3>
+<address>City Community Hall, Punjab</address>
+<p>Timings: 10 AM to 6 PM</p>
+<ul>
+<li>Tents</li>
+<li>Clothing</li>
+<li>Drinking water</li>
+</ul>
+</article>
+</section>
+<!-- How to get help section -->
+<section id="process">
+<h2>How to Get Help</h2>
+<ol>
+<li>Register your details on the portal.</li>
+<li>Wait for verification by the relief team.</li>
+<li>Visit the assigned distribution centre.</li>
+<li>Collect resources and give feedback.</li>
+</ol>
+<h3>Important Terms</h3>
+<dl>
+<dt>Relief Camp</dt>
+<dd>A temporary place providing food and shelter.</dd>
+<dt>Ration Kit</dt>
+<dd>A package containing essential food items.</dd>
+<dt>Volunteer</dt>
+<dd>A person who provides help without payment.</dd>
+</dl>
+<p><abbr title="National Disaster Response Force">NDRF</abbr> helps during disasters.</p>
+<p><abbr title="Non-Governmental Organisation">NGO</abbr> organisations support relief work.</p>
+</section>
+<!-- Request resources form -->
+<section id="request">
+<h2>Request Resources</h2>
+<form>
+<fieldset>
+<legend>Resource Request Form</legend>
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter email">
+<label for="location">Location:</label>
+<input type="text" id="location" name="location" placeholder="Enter location">
+<label for="resource">Resource Needed:</label>
+<select id="resource" name="resource">
+<option>Food</option>
+<option>Drinking Water</option>
+<option>Medicines</option>
+<option>Blankets</option>
+<option>Tents</option>
+</select>
+<label for="people">Number of People:</label>
+<input type="text" id="people" name="people" maxlength="3" placeholder="Example: 5">
+<p>Urgency:</p>
+<input type="radio" id="high" name="urgency" checked>
+<label for="high">High</label>
+<input type="radio" id="normal" name="urgency">
+<label for="normal">Normal</label>
+<label for="date">Required Date:</label>
+<input type="date" id="date" name="date">
+<label for="message">Additional Message:</label>
+<textarea id="message" name="message" placeholder="Enter your requirements"></textarea>
+<input type="checkbox" id="consent" name="consent">
+<label for="consent">I confirm that the information is correct.</label>
+<label for="submitRequest">Submit Request</label>
+<input type="submit" id="submitRequest">
+<label for="resetRequest">Reset Form</label>
+<input type="reset" id="resetRequest">
+</fieldset>
+</form>
+</section>
+<!-- Donate and volunteer section -->
+<section id="donate">
+<h2>Donate / Volunteer</h2>
+<p>Your support can make a difference!</p>
+<form>
+<fieldset>
+<legend>Offer Your Help</legend>
+<label for="donor">Full Name:</label>
+<input type="text" id="donor" name="donor" required>
+<label for="donorEmail">Email:</label>
+<input type="email" id="donorEmail" name="donorEmail">
+<label for="help">How can you help?</label>
+<select id="help" name="help">
+<option>Donate Food</option>
+<option>Donate Clothes</option>
+<option>Donate Medicines</option>
+<option>Volunteer</option>
+<option>Provide Transport</option>
+</select>
+<button type="submit">Submit Offer</button>
+</fieldset>
+</form>
+</section>
+<!-- Media section -->
+<section id="media">
+<h2>Relief Area Map</h2>
+<iframe class="map" src="https://www.google.com/maps?q=Amritsar,Punjab&output=embed" title="Amritsar Map"></iframe>
+<figure>
+<figcaption>A sample image of a disaster relief camp.</figcaption>
+</figure>
+</section>
+<!-- About section -->
+<section id="about">
+<h2>About ReliefLink</h2>
+<p>Our purpose is to connect affected families, donors and volunteers through one common platform.</p>
+<h3>Our Team</h3>
+<ul>
+<li>Member 1 - Abhay Singh Rathore - Registration No. 12606355</li>
+<li>Member 2 - Bhaskar Anand - Registration No. 12602039</li>
+<li>Member 3 - Abhinav Singh Solanki - Registration No. 12601984</li>
+</ul>
+<p>Sources: <cite>NDMA Disaster Management Guidelines</cite> and <cite>Red Cross Relief Information</cite>.</p>
+</section>
+<!-- Footer section -->
+<footer>
+<p>&copy; 2026 ReliefLink | BTech CSE Project</p>
+<p>Contact: <a href="mailto:abhayrathore3241@gmail.com">Email Us</a></p>
+<p><a href="https://ndma.gov.in/" target="_blank">Visit NDMA Website</a></p>
+<p><a href="#home">Back to Top</a></p>
+</footer>
+</body>
+</html>
